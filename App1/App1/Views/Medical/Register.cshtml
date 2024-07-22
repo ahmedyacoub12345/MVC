@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_LayoutMedical.cshtml";
+}
+
+<h2>Register Page</h2>
+
+<main>
+    <div class="container">
+        <section class="hero">
+            <h2>Register</h2>
+            <p>Please fill out the form below to create an account.</p>
+        </section>
+        <section class="content">
+            <h3>Registration Form</h3>
+            <form action="#" method="post">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</main>

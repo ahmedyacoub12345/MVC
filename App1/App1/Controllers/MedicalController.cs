@@ -6,25 +6,29 @@ using System.Web.Mvc;
 
 namespace App1.Controllers
 {
-    public class HomeController : Controller
+    public class MedicalController : Controller
     {
+        // GET: Medical
         public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult About()
+        public ActionResult Login()
         {
-            
-            ViewBag.Message = "Your application description page.";
+            return View();
+        }
+        public ActionResult Logout()
+        {
+            return View();
+        }
+        public ActionResult Contact() 
+        {
+            return View();
+        }
+        public ActionResult Register() 
+        {
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }
