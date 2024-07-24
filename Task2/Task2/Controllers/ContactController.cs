@@ -20,11 +20,11 @@ namespace Task2.Controllers
             var selectOption = form["SelectOption"];
             var multiSelectOptions = form["MultiSelectOptions"];
 
-            ViewBag.Text = text;
-            ViewBag.Number = number;
-            ViewBag.RadioOption = radioOption;
-            ViewBag.SelectOption = selectOption;
-            ViewBag.MultiSelectOptions = multiSelectOptions;
+            ViewBag.Name = text;
+            ViewBag.Age = number;
+            ViewBag.Gender = radioOption;
+            ViewBag.Specialization = selectOption;
+            ViewBag.Major = multiSelectOptions;
 
             return View("ContactResult");
         }

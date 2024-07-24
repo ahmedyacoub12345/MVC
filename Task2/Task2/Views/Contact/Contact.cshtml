@@ -8,33 +8,34 @@
 @using (Html.BeginForm("Contact", "Contact"))
 {
     <div class="form-group">
-        <label>Text</label>
+        <label>Name</label>
         <input type="text" name="Text" class="form-control" />
     </div>
     <div class="form-group">
-        <label>Number</label>
+        <label>Age</label>
         <input type="number" name="Number" class="form-control" />
     </div>
     <div class="form-group">
-        <label>RadioButton</label>
+        <label>Gender</label>
         <div>
-            <input type="radio" name="RadioOption" value="Option1" /> Option 1
-            <input type="radio" name="RadioOption" value="Option2" /> Option 2
+            <input type="radio" name="RadioOption" value="Male" /> Male
+            <input type="radio" name="RadioOption" value="Female" /> Female
         </div>
     </div>
     <div class="form-group">
-        <label>SelectOne</label>
+        <label>Specialization</label>
         <select name="SelectOption" class="form-control">
-            <option value="Select1">Select 1</option>
-            <option value="Select2">Select 2</option>
+            <option value="IT Specialist">IT Specialist</option>
+            <option value="Data Scince">Data Scince</option>
         </select>
     </div>
     <div class="form-group">
-        <label>Options</label>
+        <label>Major</label>
         <select name="MultiSelectOptions" class="form-control" multiple="multiple">
-            <option value="Option1">Option 1</option>
-            <option value="Option2">Option 2</option>
-            <option value="Option3">Option 3</option>
+            <option value="Full-Stack Developer">Full-Stack Developer</option>
+            <option value="Data Analysis">Data Analysis</option>
+            <option value="Statistics">Statistics</option>
+            <option value="QA">QA</option>
         </select>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
