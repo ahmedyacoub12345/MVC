@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|c:\\users\\orange\\desktop\\.net_mvc\\mvc\\app1\\app1\\views\\shared\\_layoutmedical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|solutionrelative:app1\\views\\shared\\_layoutmedical.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|c:\\users\\orange\\desktop\\.net_mvc\\mvc\\app1\\app1\\views\\medical\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|solutionrelative:app1\\views\\medical\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|c:\\users\\orange\\desktop\\.net_mvc\\mvc\\app1\\app1\\views\\medical\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|solutionrelative:app1\\views\\medical\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|c:\\users\\orange\\desktop\\.net_mvc\\mvc\\app1\\app1\\views\\medical\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|solutionrelative:app1\\views\\medical\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|c:\\users\\orange\\desktop\\.net_mvc\\mvc\\app1\\app1\\views\\medical\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|solutionrelative:app1\\views\\medical\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|c:\\users\\orange\\desktop\\.net_mvc\\mvc\\app1\\app1\\views\\medical\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|solutionrelative:app1\\views\\medical\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|c:\\users\\orange\\desktop\\.net_mvc\\mvc\\app1\\app1\\controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21AC240E-1A3E-4819-A293-5BAF39B0F3D5}|App1\\App1.csproj|solutionrelative:app1\\controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutMedical.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Shared\\_LayoutMedical.cshtml",
+              "RelativeDocumentMoniker": "App1\\Views\\Shared\\_LayoutMedical.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Shared\\_LayoutMedical.cshtml",
+              "RelativeToolTip": "App1\\Views\\Shared\\_LayoutMedical.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T14:28:16.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Register.cshtml",
+              "RelativeDocumentMoniker": "App1\\Views\\Medical\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Register.cshtml",
+              "RelativeToolTip": "App1\\Views\\Medical\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T14:20:16.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Contact.cshtml",
+              "RelativeDocumentMoniker": "App1\\Views\\Medical\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Contact.cshtml",
+              "RelativeToolTip": "App1\\Views\\Medical\\Contact.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T14:19:54.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Logout.cshtml",
+              "RelativeDocumentMoniker": "App1\\Views\\Medical\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Logout.cshtml",
+              "RelativeToolTip": "App1\\Views\\Medical\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T14:19:25.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Login.cshtml",
+              "RelativeDocumentMoniker": "App1\\Views\\Medical\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Login.cshtml",
+              "RelativeToolTip": "App1\\Views\\Medical\\Login.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwB8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T14:18:11.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Index.cshtml",
+              "RelativeDocumentMoniker": "App1\\Views\\Medical\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Views\\Medical\\Index.cshtml",
+              "RelativeToolTip": "App1\\Views\\Medical\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T14:14:49.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicalController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Controllers\\MedicalController.cs",
+              "RelativeDocumentMoniker": "App1\\Controllers\\MedicalController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\App1\\App1\\Controllers\\MedicalController.cs",
+              "RelativeToolTip": "App1\\Controllers\\MedicalController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:13:33.744Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
