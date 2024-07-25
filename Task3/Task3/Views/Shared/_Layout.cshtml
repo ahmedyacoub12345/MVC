@@ -110,8 +110,33 @@
                     <li>@Html.ActionLink("Home", "Home", "Pages", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("About", "About", "Pages", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Pages", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Login", "Login", "Pages", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
+            </div>
+            <div class="form-inline my-2 my-lg-0">
+                @{
+                    if (Session["is_login"] is false || Session["is_login"] is null)
+                    {
+                        <button class="btn btn-outline-success my-2 mx-2 my-sm-0" type="submit">
+                            @Html.ActionLink("Login", "LogIn", "Pages", new { area = "" }, new { @class = "nav-link" })
+                        </button>
+                        <button class="btn btn-outline-success my-2 mx-3 my-sm-0" type="submit">
+                            @Html.ActionLink("Sign Up", "LogIn", "Pages", new { area = "" }, new { @class = "nav-link" })
+                        </button> }
+                    else
+                    { <ul class="navbar-nav flex-grow-1">
+                            <li>@Html.ActionLink(" ", "Index", "Pages", new { area = "" }, new { @class = "nav-link" }) @Session["Email"]</li>
+
+                            <li>
+                                <button class="btn btn-outline-success my-2 mx-3 my-sm-0" type="submit">
+                                    @Html.ActionLink("Log Out", "Logout", "Pages", new { area = "" }, new { @class = "nav-link" })
+                                </button>
+
+                            </li>
+                        </ul>
+                    }
+
+                }
+
             </div>
         </div>
     </nav>
