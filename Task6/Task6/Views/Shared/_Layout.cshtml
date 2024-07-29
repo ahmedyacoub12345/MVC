@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77abff 3px solid;
+        }
+
+            header a {
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            header ul {
+                padding: 0;
+                list-style: none;
+            }
+
+            header li {
+                display: inline;
+                padding: 0 20px 0 20px;
+            }
+
+            header h1 {
+                float: left;
+            }
+
+            header nav {
+                float: right;
+                margin-top: 10px;
+            }
+
+                header nav ul {
+                    margin: 0;
+                }
+
+        .team {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+        }
+
+        .hero {
+            background: #77abff;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .content {
+            margin: 20px 0;
+        }
+
+            .content h3 {
+                border-bottom: 2px solid #333;
+                padding-bottom: 10px;
+            }
+
+            .content article {
+                margin-bottom: 20px;
+            }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 20px;
+        }
+
+            footer p {
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Contact", "Register", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+        </div>
+        <div class="form-inline my-2 my-lg-0">
+            @{
+                if (Session["is_login"] is false || Session["is_login"] is null)
+                {
+                    <button class="btn btn-outline-success my-2 mx-2 my-sm-0" type="submit">
+                        @Html.ActionLink("Login", "Login", "Home", new { area = "" }, new { @class = "nav-link" })
+                    </button>
+                    <button class="btn btn-outline-success my-2 mx-3 my-sm-0" type="submit">
+                        @Html.ActionLink("Sign Up", "Register", "Home", new { area = "" }, new { @class = "nav-link" })
+                    </button> }
+                else
+                { <ul class="navbar-nav flex-grow-1">
+                      <li>
+                          <button class="btn btn-outline-success my-2 mx-3 my-sm-0" type="submit">
+                              @Html.ActionLink("Profile", "Profile", "Home", new { area = "" }, new { @class = "nav-link" })
+                          </button>
+                      </li>
+                        <li>
+                            <button class="btn btn-outline-success my-2 mx-3 my-sm-0" type="submit">
+                                @Html.ActionLink("Log Out", "Logout", "Home", new { area = "" }, new { @class = "nav-link" })
+                            </button>
+                        </li>
+                  </ul>
+                }
+
+            }
+
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
