@@ -8,6 +8,7 @@
     <Property Name="Name" Type="varchar" MaxLength="50" />
     <Property Name="Email" Type="varchar" MaxLength="50" />
     <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="Image" Type="varchar(max)" />
   </EntityType>
   <EntityContainer Name="RegisterModelStoreContainer">
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
