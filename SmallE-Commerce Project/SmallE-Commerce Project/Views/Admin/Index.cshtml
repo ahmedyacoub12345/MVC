@@ -1,0 +1,23 @@
+﻿@model IEnumerable<SmallE_Commerce_Project.Controllers.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+    @foreach (var product in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="@product.URL" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@product.Name</h5>
+                <p class="card-text">@product.Price</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+                <a href="#" class="btn btn-primary">Add To Cart</a>
+            </div>
+        </div>
+    }
+<div>
+    @Html.ActionLink("Back to Create", "Create")
+</div>
