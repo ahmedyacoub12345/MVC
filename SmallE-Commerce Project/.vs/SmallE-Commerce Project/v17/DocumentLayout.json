@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\SmallE-Commerce Project\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|c:\\users\\orange\\desktop\\smalle-commerce project\\smalle-commerce project\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|solutionrelative:smalle-commerce project\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|c:\\users\\orange\\desktop\\.net_mvc\\mvc\\smalle-commerce project\\smalle-commerce project\\controllers\\admin1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|solutionrelative:smalle-commerce project\\controllers\\admin1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|c:\\users\\orange\\desktop\\smalle-commerce project\\smalle-commerce project\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|solutionrelative:smalle-commerce project\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\smalle-commerce project\\views\\admin1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|solutionrelative:smalle-commerce project\\views\\admin1\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|c:\\users\\orange\\desktop\\smalle-commerce project\\smalle-commerce project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\smalle-commerce project\\views\\admin1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|solutionrelative:smalle-commerce project\\views\\admin1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\smalle-commerce project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|solutionrelative:smalle-commerce project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\smalle-commerce project\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE438189-E14E-46A1-B8E6-EDF5A2F1433C}|SmallE-Commerce Project\\SmallE-Commerce Project.csproj|solutionrelative:smalle-commerce project\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "SmallE-Commerce Project\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "SmallE-Commerce Project\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAGAAAA",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin1\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmallE-Commerce Project\\Views\\Admin1\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin1\\Index.cshtml",
+              "RelativeToolTip": "SmallE-Commerce Project\\Views\\Admin1\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T07:15:12.862Z",
+              "WhenOpened": "2024-08-13T14:13:24.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin\\Create.cshtml",
-              "RelativeDocumentMoniker": "SmallE-Commerce Project\\Views\\Admin\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin\\Create.cshtml",
-              "RelativeToolTip": "SmallE-Commerce Project\\Views\\Admin\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin1\\Create.cshtml",
+              "RelativeDocumentMoniker": "SmallE-Commerce Project\\Views\\Admin1\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin1\\Create.cshtml",
+              "RelativeToolTip": "SmallE-Commerce Project\\Views\\Admin1\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T06:32:24.624Z",
+              "WhenOpened": "2024-08-13T14:12:10.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\SmallE-Commerce Project\\SmallE-Commerce Project\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "SmallE-Commerce Project\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\SmallE-Commerce Project\\SmallE-Commerce Project\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "SmallE-Commerce Project\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowDgAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Admin1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Controllers\\Admin1Controller.cs",
+              "RelativeDocumentMoniker": "SmallE-Commerce Project\\Controllers\\Admin1Controller.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Controllers\\Admin1Controller.cs",
+              "RelativeToolTip": "SmallE-Commerce Project\\Controllers\\Admin1Controller.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T06:29:50.261Z",
+              "WhenOpened": "2024-08-13T14:10:26.027Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "SmallE-Commerce Project\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "SmallE-Commerce Project\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T06:32:24.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SmallE-Commerce Project\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\.Net_MVC\\MVC\\SmallE-Commerce Project\\SmallE-Commerce Project\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SmallE-Commerce Project\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwC4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T06:29:50.261Z"
             }
           ]
         }

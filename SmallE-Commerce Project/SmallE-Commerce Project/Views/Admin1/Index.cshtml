@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var product in Model)
+{
+    <div class="card" style="width: 18rem;">
+        <img src="@product["Image"]" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@product["Name"]</h5>
+            <p class="card-text">Price @product["Price"].</p>
+            <a href="#" class="btn btn-primary">Pay</a>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+
+        </div>
+    </div>
+}
+<div>
+    @Html.ActionLink("Back to Create", "Create")
+</div>
