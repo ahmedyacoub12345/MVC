@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCErrorHandel", "MVC ErrorHandel\MVCErrorHandel.csproj", "{AC645FE0-07D0-4D09-A5EA-3EB26DB760A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC645FE0-07D0-4D09-A5EA-3EB26DB760A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC645FE0-07D0-4D09-A5EA-3EB26DB760A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC645FE0-07D0-4D09-A5EA-3EB26DB760A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC645FE0-07D0-4D09-A5EA-3EB26DB760A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44EB1D6C-945E-4FA5-9A88-B073EF1375AC}
+	EndGlobalSection
+EndGlobal
