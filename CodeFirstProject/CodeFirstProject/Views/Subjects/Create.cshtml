@@ -1,0 +1,18 @@
+﻿@model CodeFirstProject.Models.Subject
+@{
+    ViewBag.Title = "Create Subject";
+}
+
+<h2>Create Subject</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name)
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <input type="submit" value="Create" />
+}

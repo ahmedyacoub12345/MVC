@@ -1,0 +1,23 @@
+﻿@model CodeFirstProject.Models.Student
+@{
+    ViewBag.Title = "Edit Student";
+}
+
+<h2>Edit Student</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name)
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.ClassId)
+        @Html.DropDownListFor(m => m.ClassId, (SelectList)ViewBag.Classes, "Select Class")
+        @Html.ValidationMessageFor(m => m.ClassId)
+    </div>
+    <input type="submit" value="Save" />
+}

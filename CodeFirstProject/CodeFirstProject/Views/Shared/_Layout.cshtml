@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - My School System</title>
+    <link href="~/Content/site.css" rel="stylesheet" />
+    @RenderSection("Styles", required: false)
+    <style>
+        /* Navbar styles */
+        .navbar {
+            background-color: #343a40;
+            padding: 15px;
+        }
+
+        .navbar-brand {
+            color: #ffffff;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            padding: 0;
+        }
+
+            .navbar-nav li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+            .navbar-nav a {
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+                .navbar-nav a:hover {
+                    text-decoration: underline;
+                }
+
+        /* Footer styles */
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        h2 {
+            color: #343a40;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            .table th, .table td {
+                border: 1px solid #dee2e6;
+                padding: 10px;
+                text-align: left;
+            }
+
+            .table th {
+                background-color: #343a40;
+                color: #ffffff;
+            }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">School System</a>
+            <ul class="navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Classes", "Index", "Classes")</li>
+                <li>@Html.ActionLink("Subjects", "Index", "Subjects")</li>
+                <li>@Html.ActionLink("Tasks", "Index", "Tasks")</li>
+                <li>@Html.ActionLink("Students", "Index", "Students")</li>
+                @if (Session["Username"] != null)
+                {
+                    <li>@Html.ActionLink("Logout", "Logout", "Account")</li>
+                }
+                else
+                {
+                    <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                }
+
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; @DateTime.Now.Year - My School System</p>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

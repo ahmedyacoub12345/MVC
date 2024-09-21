@@ -1,0 +1,27 @@
+﻿@model CodeFirstProject.Models.Subject
+
+@{
+    ViewBag.Title = "Delete Subject";
+}
+
+<h2>Delete Subject</h2>
+
+<div class="alert alert-warning">
+    <h4>Are you sure you want to delete this subject?</h4>
+    <p>
+        <strong>Subject Name:</strong> @Html.DisplayFor(m => m.Name)
+    </p>
+</div>
+
+@using (Html.BeginForm("DeleteConfirmed", "Subjects", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+
+    <div class="form-group">
+        <div>
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-default" })
+        </div>
+    </div>
+}

@@ -1,0 +1,16 @@
+﻿@model CodeFirstProject.Models.Class
+@{
+    ViewBag.Title = "Delete Class";
+}
+
+<h2>Delete Class</h2>
+
+<p>Are you sure you want to delete this class: <strong>@Model.Name</strong>?</p>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <input type="submit" value="Delete" />
+    @Html.ActionLink("Cancel", "Index", "Classes")
+}

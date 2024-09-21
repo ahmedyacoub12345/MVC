@@ -1,0 +1,18 @@
+﻿@model CodeFirstProject.Models.Class
+@{
+    ViewBag.Title = "Create Class";
+}
+
+<h2>Create Class</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name)
+        @Html.ValidationMessageFor(m => m.Name)
+    </div>
+    <input type="submit" value="Create" />
+}

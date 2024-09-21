@@ -1,0 +1,28 @@
+﻿@model IEnumerable<CodeFirstProject.Models.Subject>
+@{
+    ViewBag.Title = "Subjects";
+}
+
+<h2>Subjects</h2>
+<p>@Html.ActionLink("Create New Subject", "Create", "Subjects")</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var subject in Model)
+        {
+            <tr>
+                <td>@subject.Name</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Subjects", new { id = subject.Id }, null) |
+                    @Html.ActionLink("Delete", "Delete", "Subjects", new { id = subject.Id }, null)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

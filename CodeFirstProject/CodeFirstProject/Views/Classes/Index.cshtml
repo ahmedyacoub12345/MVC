@@ -1,0 +1,30 @@
+﻿@model IEnumerable<CodeFirstProject.Models.Class>
+@{
+    ViewBag.Title = "Classes";
+}
+
+<h2>Classes</h2>
+<p>@Html.ActionLink("Create New Class", "Create", "Classes")</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cls in Model)
+        {
+            <tr>
+                <td>@cls.Name</td>
+                <td>
+                    @Html.ActionLink("View Students", "Students", "Classes", new { id = cls.Id }, null) |
+                    @Html.ActionLink("View Tasks", "Tasks", "Classes", new { id = cls.Id }, null) |
+                    @Html.ActionLink("Edit", "Edit", "Classes", new { id = cls.Id }, null) |
+                    @Html.ActionLink("Delete", "Delete", "Classes", new { id = cls.Id }, null)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

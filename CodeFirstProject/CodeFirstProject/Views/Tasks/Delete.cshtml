@@ -1,0 +1,18 @@
+﻿@model CodeFirstProject.Models.Task
+@{
+    ViewBag.Title = "Delete Task";
+}
+
+
+
+<h2>Delete Task</h2>
+
+<p>Are you sure you want to delete this task: <strong>@Model.Title</strong>?</p>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <input type="submit" value="Delete" />
+    @Html.ActionLink("Cancel", "Index", "Tasks")
+}

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<CodeFirstProject.Models.Task>
+@{
+    ViewBag.Title = "Tasks";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+        header h1 {
+            margin: 0;
+        }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+        }
+
+    input[type="submit"] {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+</style>
+
+<h2>Tasks</h2>
+<p>@Html.ActionLink("Add New Task", "Create", "Tasks")</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in Model)
+        {
+            <tr>
+                <td>@task.Title</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Tasks", new { id = task.Id }, null) |
+                    @Html.ActionLink("Delete", "Delete", "Tasks", new { id = task.Id }, null)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
